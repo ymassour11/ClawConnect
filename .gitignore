@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Database files
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Misc
+NUL
+*.pem
+
+# Asset source files (large, not needed for build)
+craftpix-net-*/
+test-api.mjs
