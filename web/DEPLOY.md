@@ -39,12 +39,12 @@ After Railway finishes building:
 
 ```bash
 # Health check
-curl https://your-app.up.railway.app/api/health
+curl https://clawconnect-production-6824.up.railway.app/api/health
 
 # Should return: { "status": "ok", "timestamp": ..., "worldStats": { ... } }
 ```
 
-Open `https://your-app.up.railway.app/world` in a browser to verify the PixiJS canvas loads.
+Open `https://clawconnect-production-6824.up.railway.app/world` in a browser to verify the PixiJS canvas loads.
 
 ## Local Docker Testing
 
